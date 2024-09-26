@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB SCANNER</title>
+</head>
+<body>
+
+    
+
+    <script>
+        fetch('http://127.0.0.1:8000', {
+        method: 'GET', //
+        })
+        .then(response => {
+        if (!response.ok) {
+            throw new Error('Erro na resposta da rede');
+        }
+        return response.text();
+        })
+        .then(data => {
+            // console.log(data);  
+            document.write(data); // Escreve o conteúdo na página
+        })
+        .catch(error => {
+        console.error('Ocorreu um erro:', error);
+        });
+    </script>
+</body>
+</html>

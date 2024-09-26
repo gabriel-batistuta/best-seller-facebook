@@ -1,0 +1,28 @@
+{
+    "All":"https://www.facebook.com/search/top?q={query}",
+    "Posts": {
+        "url":"https://www.facebook.com/search/posts?q={query}",
+        "recent":false,
+        "already_seen":false,
+        "date":"",
+        "posts_of":[
+            "Qualquer pessoa",
+            "Ti",
+            "Os teus amigos",
+            "Os teus grupos e Páginas",
+            "Publicações públicas"
+        ],
+        "location":[
+            "Qualquer lado",
+            "Mossoró"
+        ]
+    },
+    "People": "https://www.facebook.com/search/people?q={query}",
+    "Photos": "https://www.facebook.com/search/photos?q={query}",
+    "Videos": "https://www.facebook.com/search/videos?q={query}",
+    "Marketplace": "https://www.facebook.com/marketplace/",
+    "Pages": "https://www.facebook.com/search/pages?q={query}",
+    "Locais": "https://www.facebook.com/search/places?q={query}",
+    "Groups": "https://www.facebook.com/search/groups?q={query}",
+    "Events": "https://www.facebook.com/search/events?q={query}"
+}
